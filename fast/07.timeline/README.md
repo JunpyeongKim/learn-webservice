@@ -31,6 +31,12 @@
     - hero-unit
         - Bootstrap 이 제공하는 메인을 구성가ㅡㅇ한 컴포넌트
         - container : 적당한 공백 적용
+    - SPAN4 - 3 Column
+        - span 뒤에 숫자를 이용해 각각의 크기를 갖는 영역 컴포넌트를 생성
+        - .row-fluid div[class*="span"]
+            - row-fluid 클래스 다음에 나오는 div 영역 속성 중에 클래스 이름이 span 이 들어가는 속성 지정
+        - 라운딩 처리 : 각 브라우저에서 지원하는 속성이 다르므로
+    
             
         
 
