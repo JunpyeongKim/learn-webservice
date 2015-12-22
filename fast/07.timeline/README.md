@@ -36,6 +36,13 @@
         - .row-fluid div[class*="span"]
             - row-fluid 클래스 다음에 나오는 div 영역 속성 중에 클래스 이름이 span 이 들어가는 속성 지정
         - 라운딩 처리 : 각 브라우저에서 지원하는 속성이 다르므로
+    - SPAN6 - 2 Column
+        - class
+            - progress progress-danger progress-striped
+            - active
+            - bar
+            - tabbable
+            - tab-content
     
             
         
