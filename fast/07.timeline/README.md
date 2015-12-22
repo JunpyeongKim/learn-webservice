@@ -46,6 +46,8 @@
     - SPAN12 - 1 Column
         - class
             - alert alert-error fade in close
+    - 스크립트
+        - toggle() 기능이 잘못 구현되어 있다 --> 변경 필요
     
             
         

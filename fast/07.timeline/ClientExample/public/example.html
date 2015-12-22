@@ -120,5 +120,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="bootstrap-2.3.2/js/bootstrap.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#first').click(function () {
+                $('#section2').trigger('click');
+            });
+
+            $('#second').click(function () {
+                $('#alert').toggle(function () {
+                    $('#alert').removeClass('alert-error');
+                    $('#alert').addClass('alert-info')
+                }, function () {
+                    $('#alert').removeClass('alert-info');
+                    $('#alert').addClass('alert-error')
+                });
+            });
+
+            $('#third').click(function () {
+                var width = $('#bar').width();
+                $('#bar').width(width + 50);
+            });
+        });
+    </script>
 </body>
 </html>
