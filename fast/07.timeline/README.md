@@ -43,6 +43,9 @@
             - bar
             - tabbable
             - tab-content
+    - SPAN12 - 1 Column
+        - class
+            - alert alert-error fade in close
     
             
         
